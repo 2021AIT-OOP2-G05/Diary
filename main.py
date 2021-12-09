@@ -1,5 +1,6 @@
 from diaries.DiarySample import DiarySample
 from diaries.HayashiDiary import HayashiDiary
+from diaries.OiwaDiary import OiwaDiary
 from diaries.OnishiDiary import OnishiDiary
 from diaries.DiarySample import DiarySample
 from diaries.FujimotoDiary import FujimotoDiary
@@ -10,6 +11,7 @@ diaries = [
   HayashiDiary(),
   OnishiDiary(),
   FujimotoDiary(),
+  OiwaDiary(),
 ] 
 
 for d in diaries:
