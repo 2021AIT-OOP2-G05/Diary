@@ -7,6 +7,7 @@ from diaries.DiarySample import DiarySample
 from diaries.FujimotoDiary import FujimotoDiary
 from diaries.FukushimaDiary import FukushimaDiary
 from diaries.NoharaDiary import NoharaDiary
+from diaries.TsunoDiary import TsunoDiary
 
 # ↓のリストには、メンバーの各日記が格納されます。
 diaries = [
@@ -17,6 +18,7 @@ diaries = [
   OiwaDiary(),
   FukushimaDiary(),
   NoharaDiary(),
+  TsunoDiary(),
 ] 
 
 for d in diaries:
